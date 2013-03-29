@@ -10,5 +10,7 @@ module Seeder
     )
     admin.admin = true
     admin.save!
+    admin.confirmed_at = Time.now
+    admin.save!
   end
 end
