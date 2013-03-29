@@ -9,15 +9,18 @@
   <% end %>
 </ul>
 
-<strong>Other skills</strong>
 <div>
-  <%= @profile.other %>
+  <strong>Other skills</strong>
+  <div style="padding:0 8px">
+    <%= @profile.other %>
+  </div>
+  <strong>Bio</strong>
+  <div style="padding:0 8px">
+    <%= @profile.bio %>
+  </div>
 </div>
 
-<strong>Bio</strong>
-<div>
-  <%= @profile.bio %>
-</div>
+<br/>
 
 <h3>Workshop History</h3>
 
